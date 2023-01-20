@@ -2,7 +2,7 @@
 
 function palindrome(str){
     
-        var reverseStr= str.split(" ").reverse().join("")
+        var reverseStr= str.toLowercase(). split(" ").reverse().join("")
         if(reverseStr===str){
             return true
         } else {
