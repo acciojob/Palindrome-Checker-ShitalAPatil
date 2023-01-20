@@ -2,8 +2,8 @@
 
 function palindrome(str){
     
-        var reverseStr= str.split("").reverse().join("").toLowerCase()
-        if(reverseStr===str){
+        var reverseStr= str.trim().split("").reverse().join("").toLowerCase()
+        if(reverseStr===str.trim()){
             return true
         } else {
             return false
